@@ -1,7 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 import Avatars from "./avatars";
-import ButtonWithIcon from "./buttonwithicon";
 
 function CarrierTab() {
   return (
@@ -100,17 +99,3 @@ const Parent = styled.div`
 `;
 
 export default CarrierTab;
-
-{
-  /* <div className="Carriers-parent">
-<div className="Carriers-child">
-  <section className="Carrier-heading">
-    Carriers <Avatars />
-  </section>
-  <section className="Carrier-text">
-    Empowering Visions, Igniting Digital Spirits, Tomarrow and Beyond!
-  </section>
-  <button className="Carrier-Button">Join Us</button>
-</div>
-</div> */
-}

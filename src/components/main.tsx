@@ -1,13 +1,11 @@
 import React from "react";
 import Services from "./services";
 import CarrierTab from "./carriersTab";
-import PartnersTab from "./partnersTab";
 
 function Main() {
   const servicecount: number = 8;
   return (
     <div className="Main">
-      <PartnersTab partnercount={40} onClick={() => {}} />
       <div className="Next-parent">
         <div className="Next-child">next</div>
       </div>

@@ -13,7 +13,12 @@ function Footer() {
       <div className="foot-button">
         <ButtonWithIcon
           text="Let's Collaborate"
-          onClick={() => {}}
+          onClick={() => {
+            window.open(
+              "https://karthik1915.github.io/karthikeyan.aboutme/",
+              "_blank"
+            );
+          }}
           icon={MdOutlineArrowOutward}
         />
       </div>

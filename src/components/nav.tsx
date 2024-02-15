@@ -18,8 +18,8 @@ function TopBar() {
       <Heading>Tomarrow.</Heading>
       <Navigation>
         <LinkButton isactive={true} text="About" link="" />
-        <LinkButton isactive={false} text="Our Teams" link="" />
-        <LinkButton isactive={false} text="News" link="" />
+        <LinkButton isactive={false} text="Our Teams" link="/#teams" />
+        <LinkButton isactive={false} text="News" link="#news" />
       </Navigation>
 
       <Button onClick={toggleMenu}>
@@ -28,7 +28,16 @@ function TopBar() {
 
       {isOpen && <Menu onClick={toggleMenu} />}
 
-      <ButtonWithIcon text="Contact Us" onClick={() => {}} icon={CgMail} />
+      <ButtonWithIcon
+        text="Contact Us"
+        onClick={() => {
+          window.open(
+            "https://karthik1915.github.io/karthikeyan.aboutme/",
+            "_blank"
+          );
+        }}
+        icon={CgMail}
+      />
     </Sizing>
   );
 }

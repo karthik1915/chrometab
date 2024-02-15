@@ -1,25 +1,20 @@
 import React from "react";
-import ButtonWithIcon from "./buttonwithicon";
-import { CgMail } from "react-icons/cg";
-import LinkButton from "./Link";
+import styled from "styled-components";
+
+import TopBar from "./nav";
 
 function Navbar() {
   return (
-    <>
-      <div className="Navbar">
-        <div className="Navbar-Heading">
-          <a>Tomarrow</a>
-        </div>
-        <div className="Navbar-middle">
-          <LinkButton isactive={true} text="About" link="" />
-          <LinkButton isactive={false} text="Our Teams" link="" />
-          <LinkButton isactive={false} text="News" link="" />
-        </div>
-        <div>
-          <ButtonWithIcon text="Contact Us" onClick={() => {}} icon={CgMail} />
-        </div>
-      </div>
-    </>
+    <NavbarStyle>
+      <TopBar />
+    </NavbarStyle>
   );
 }
+
+const NavbarStyle = styled.div`
+  grid-row: 1 / span 1;
+  background-color: var(--bgmain);
+  grid-column: 1 / span 5;
+`;
+
 export default Navbar;

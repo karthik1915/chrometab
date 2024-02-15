@@ -1,7 +1,36 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,500&display=swap");
+@font-face {
+  font-family: "Nunito";
+  src: url("./assets//fonts/Nunito/Nunito-VariableFont_wght.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Kanit";
+  src: url("./assets/fonts/Kanit/Kanit-Medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bgmain: aliceblue;
+  --colormain: #1c1c1c;
+  --padding: 14px;
+  --borderint: 28px;
+  --borderext: 32px;
+}
 
 #body {
   cursor: url("./assets/customcursor24.png"), auto;
-  font-family: "Nunito Sans";
-  background-color: white;
+  font-family: "Nunito";
+  background-color: aliceblue;
 }

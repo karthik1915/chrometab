@@ -6,9 +6,9 @@ function Footer() {
   return (
     <div className="Footer">
       <div className="foot-text">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, fugiat
-        ipsum deserunt ea consequatur eum fugit commodi vero quo tempora
-        ratione, suscipit pariatur provident accusantium.
+        We're not just about trends; we're about transformation. In a world
+        where technology evolves at lightning speed, we're here to guide you
+        through the dynamic landscape of digital possibilities.
       </div>
       <div className="foot-button">
         <ButtonWithIcon

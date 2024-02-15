@@ -8,16 +8,7 @@ function Avatars() {
         src="/avatar.jpg"
         alt="Avatar"
       />
-      <img
-        style={{ width: 30, height: 30, borderRadius: 100 }}
-        src="/avatar.jpg"
-        alt="Avatar"
-      />
-      <img
-        style={{ width: 30, height: 30, borderRadius: 100 }}
-        src="/avatar.jpg"
-        alt="Avatar"
-      />
+
       <img
         style={{ width: 30, height: 30, borderRadius: 100 }}
         src="/avatar.jpg"

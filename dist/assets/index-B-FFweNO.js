@@ -114,7 +114,7 @@ Error generating stack: `+o.message+`
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 100;
-`;function e_(){const[t,e]=Ot.useState(!1),n=()=>{e(!t)};return O.jsxs(t_,{children:[O.jsx(n_,{children:"Tomarrow."}),O.jsxs(r_,{children:[O.jsx(Vs,{isactive:!0,text:"About",link:""}),O.jsx(Vs,{isactive:!1,text:"Our Teams",link:""}),O.jsx(Vs,{isactive:!1,text:"News",link:""})]}),O.jsx(i_,{onClick:n,children:O.jsx(Xv,{size:20})}),t&&O.jsx(Zv,{onClick:n}),O.jsx(i0,{text:"Contact Us",onClick:()=>{},icon:Gv})]})}const t_=Q.div`
+`;function e_(){const[t,e]=Ot.useState(!1),n=()=>{e(!t)};return O.jsxs(t_,{children:[O.jsx(n_,{children:"Tomarrow."}),O.jsxs(r_,{children:[O.jsx(Vs,{isactive:!0,text:"About",link:""}),O.jsx(Vs,{isactive:!1,text:"Our Teams",link:"/#teams"}),O.jsx(Vs,{isactive:!1,text:"News",link:"#news"})]}),O.jsx(i_,{onClick:n,children:O.jsx(Xv,{size:20})}),t&&O.jsx(Zv,{onClick:n}),O.jsx(i0,{text:"Contact Us",onClick:()=>{window.open("https://karthik1915.github.io/karthikeyan.aboutme/","_blank")},icon:Gv})]})}const t_=Q.div`
   display: flex;
   align-items: center;
   width: 100%;
@@ -267,7 +267,7 @@ Error generating stack: `+o.message+`
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-`;function Ly(t){return ss({tag:"svg",attr:{viewBox:"0 0 24 24"},child:[{tag:"path",attr:{fill:"none",d:"M0 0h24v24H0z"},child:[]},{tag:"path",attr:{d:"M6 6v2h8.59L5 17.59 6.41 19 16 9.41V18h2V6z"},child:[]}]})(t)}function Iy(){return O.jsxs("div",{className:"Footer",children:[O.jsx("div",{className:"foot-text",children:"We're not just about trends; we're about transformation. In a world where technology evolves at lightning speed, we're here to guide you through the dynamic landscape of digital possibilities."}),O.jsx("div",{className:"foot-button",children:O.jsx(i0,{text:"Let's Collaborate",onClick:()=>{},icon:Ly})})]})}const Ay=["web development","3D design","Product Design","Marketing","Digital Marketing","SEO","Cloud","NLP","Cyber Security"];function jy(){return oi(()=>{Rn.from(".serviceButton",{scale:0,stagger:.1,duration:1,ease:"bounce.out",delay:.2})}),O.jsx(Fy,{children:Ay.map((t,e)=>O.jsx("div",{className:"serviceButton",children:t},e))})}const Fy=Q.div`
+`;function Ly(t){return ss({tag:"svg",attr:{viewBox:"0 0 24 24"},child:[{tag:"path",attr:{fill:"none",d:"M0 0h24v24H0z"},child:[]},{tag:"path",attr:{d:"M6 6v2h8.59L5 17.59 6.41 19 16 9.41V18h2V6z"},child:[]}]})(t)}function Iy(){return O.jsxs("div",{className:"Footer",children:[O.jsx("div",{className:"foot-text",children:"We're not just about trends; we're about transformation. In a world where technology evolves at lightning speed, we're here to guide you through the dynamic landscape of digital possibilities."}),O.jsx("div",{className:"foot-button",children:O.jsx(i0,{text:"Let's Collaborate",onClick:()=>{window.open("https://karthik1915.github.io/karthikeyan.aboutme/","_blank")},icon:Ly})})]})}const Ay=["web development","3D design","Product Design","Marketing","Digital Marketing","SEO","Cloud","NLP","Cyber Security"];function jy(){return oi(()=>{Rn.from(".serviceButton",{scale:0,stagger:.1,duration:1,ease:"bounce.out",delay:.2})}),O.jsx(Fy,{children:Ay.map((t,e)=>O.jsx("div",{className:"serviceButton",children:t},e))})}const Fy=Q.div`
   width: 100%;
   display: flex;
   flex-wrap: wrap;
